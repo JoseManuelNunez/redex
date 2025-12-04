@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
+@keyframes spin-fade {
+  0% {
+    opacity: 0;
+    transform: rotate(-180deg) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+.animate-spin-fade {
+  animation: spin-fade 0.8s ease-out forwards;
+}
 
 body {
   font-family: var(--font-inter), sans-serif;

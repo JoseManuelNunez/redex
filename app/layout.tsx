@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Inter } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/src/shared/header/Header";
+import { ViewTransition } from "react";
 
 const inter = Inter({
   variable: "--font-inter", // Puedes usar una variable CSS personalizada
@@ -24,7 +25,7 @@ export default function RootLayout({
         className={`${inter.variable} antialiased`}
       >
         <Header>
-          {children}
+            {children}
         </Header>
       </body>
     </html>
