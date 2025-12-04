@@ -5,7 +5,7 @@ import Link from "next/link";
 export const LoginComponent = () => {
   return (
     <div className="min-h-screen flex items-start justify-center bg-white p-4">
-      <div className="bg-white rounded-3xl shadow-xl w-full max-w-md p-8 flex flex-col gap-6">
+      <div className="bg-white rounded-3xl shadow-xl shadow-black w-full max-w-md p-8 flex flex-col gap-6">
         <h1 className="text-3xl font-bold text-center">Iniciar sesión</h1>
         <p className="text-center text-black -mt-4">
           Accede a tus propiedades guardadas y gestiona tus consultas.

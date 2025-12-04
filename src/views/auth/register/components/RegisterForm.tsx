@@ -5,7 +5,7 @@ import { IStepProps } from "../interfaces/register.interfaces";
 
 export const RegisterForm = ({ onNext }: IStepProps) => {
   return ( 
-      <div className="bg-white rounded-3xl shadow-xl w-full max-w-md p-8 flex flex-col gap-6">
+      <div className="bg-white rounded-3xl shadow-xl shadow-black w-full max-w-md p-8 flex flex-col gap-6">
         <h1 className="text-3xl font-bold text-center">Crear una cuenta</h1>
         <p className="text-center text-black -mt-4">
           Accede a tus propiedades guardadas y gestiona tus consultas.
